@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36853" started-at="2019-12-30T08:04:24Z" finished-at="2019-12-30T08:05:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36853" started-at="2019-12-30T08:04:24Z" finished-at="2019-12-30T08:05:01Z">
+      <class name="com.jbk.LoginwithDataprovider">
+        <test-method status="PASS" signature="loginpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jbk.LoginwithDataprovider@25618e91]" name="loginpage" duration-ms="15587" started-at="2019-12-30T13:34:25Z" data-provider="loginTestCaseDp" finished-at="2019-12-30T13:34:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter email as kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter password 123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="loginpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jbk.LoginwithDataprovider@25618e91]" name="loginpage" duration-ms="8850" started-at="2019-12-30T13:34:41Z" data-provider="loginTestCaseDp" finished-at="2019-12-30T13:34:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Inavalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asfds]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[asdcc]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter email as kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter password 123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="loginpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jbk.LoginwithDataprovider@25618e91]" name="loginpage" duration-ms="11897" started-at="2019-12-30T13:34:49Z" data-provider="loginTestCaseDp" finished-at="2019-12-30T13:35:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[JavaByKiran | Dashboard]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[JavaByKiran | Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+      </class> <!-- com.jbk.LoginwithDataprovider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
